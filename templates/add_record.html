@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Add Waste Collection</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h2>
+    Add Waste Collection
+</h2>
+
+
+
+<form action="/save" method="POST">
+
+
+
+<input 
+type="text"
+name="worker"
+placeholder="Worker Name"
+required>
+
+
+
+<input 
+type="text"
+name="area"
+placeholder="Collection Area"
+required>
+
+
+
+<input 
+type="text"
+name="waste_type"
+placeholder="Waste Type"
+required>
+
+
+
+<input 
+type="text"
+name="weight"
+placeholder="Waste Weight (kg)"
+required>
+
+
+
+<input 
+type="date"
+name="date"
+required>
+
+
+
+<button type="submit">
+    Save Record
+</button>
+
+
+
+</form>
+
+
+
+<br>
+
+
+<a href="/">
+    Back Home
+</a>
+
+
+</div>
+
+
+</body>
+
+</html>

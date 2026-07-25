@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Waste Records</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+<script src="/static/s.js"></script>
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h2>
+    Waste Collection Records
+</h2>
+
+
+
+<table>
+
+
+<tr>
+
+    <th>ID</th>
+    <th>Worker</th>
+    <th>Area</th>
+    <th>Waste Type</th>
+    <th>Weight</th>
+    <th>Date</th>
+    <th>Action</th>
+
+</tr>
+
+
+
+{% for record in records %}
+
+<tr>
+
+    <td>{{ record.id }}</td>
+
+    <td>{{ record.worker }}</td>
+
+    <td>{{ record.area }}</td>
+
+    <td>{{ record.waste_type }}</td>
+
+    <td>{{ record.weight }} kg</td>
+
+    <td>{{ record.date }}</td>
+
+
+    <td>
+<a href="/delete/{{record.id}}" onclick="return confirmDelete()">
+
+            <button class="delete">
+
+                Delete
+
+            </button>
+
+        </a>
+
+    </td>
+
+
+</tr>
+
+
+{% endfor %}
+
+
+
+</table>
+
+
+
+<br>
+
+
+<a href="/add">
+
+<button>
+Add New Record
+</button>
+
+</a>
+
+
+
+<br><br>
+
+
+<a href="/">
+Back Home
+</a>
+
+
+</div>
+
+
+</body>
+
+</html>
