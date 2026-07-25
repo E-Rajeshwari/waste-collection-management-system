@@ -27,22 +27,6 @@ Backend:
 Database:
 - MySQL
 
-## Project Structure
-WasteCollectionRegister/
-│
-├── app.py
-├── requirements.txt
-├── database.db
-│
-├── templates/
-│   ├── index.html
-│   ├── add_record.html
-│   └── records.html
-│
-└── static/
-    ├── style.css
-    └── script.js
-
 ## Installation Steps
 
 ### 1. Install Python
