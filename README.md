@@ -1,85 +1,94 @@
-# Waste Collection Register Project
-
+# Waste Collection Management System
 
 ## Project Description
 
-Waste Collection Register is a simple web application used to store and manage waste collection details.
+Waste Collection Management System is a web application used to store and manage waste collection details.
 
-It helps workers maintain records like:
+The system allows users to add waste collection records including worker name, collection area, waste type, weight and date.
 
-- Worker Name
-- Collection Area
-- Waste Type
-- Waste Weight
-- Collection Date
+## Features
 
+- Add Waste Collection Details
+- View Collection Records
+- Manage Waste Data
+- Generate Waste Collection Report PDF
+- User-friendly Interface
 
 ## Technologies Used
 
 Frontend:
-
 - HTML
 - CSS
 - JavaScript
 
-
 Backend:
-
-- Python Flask
-
+- Node.js / Python
 
 Database:
-
-- SQLite
-
-
-
-## Features
-
-- Add waste collection records
-- View all records
-- Delete records
-- Store data permanently using SQLite
-- Simple user interface
-
-
+- MySQL
 
 ## Project Structure
-
-
 WasteCollectionRegister/
-
 │
-
 ├── app.py
-
 ├── requirements.txt
-
 ├── database.db
-
 │
-
 ├── templates/
-
 │   ├── index.html
-
 │   ├── add_record.html
-
 │   └── records.html
-
 │
-
 └── static/
-
     ├── style.css
-
     └── script.js
-
-
 
 ## Installation Steps
 
-
 ### 1. Install Python
+Check Python installation
 
-Check Python installation:
+### 2. Install Flask
+
+### 3. Run Application
+
+### 4. Open Browser
+
+Go to:http://127.0.0.1:5000
+
+## Output Pages
+
+Home Page:
+
+- Add Collection
+- View Records
+
+
+Add Record Page:
+
+- Enter waste details
+- Save data
+
+
+Records Page:
+
+- Display all waste records
+- Delete records
+
+
+Example:
+
+Worker Name : Roo
+Area        : Chennai
+Waste Type  : Plastic
+Weight      : 10
+Date        : 2026-07-25
+
+
+## Future Enhancement
+
+- User Login System
+- Edit Record Option
+- Search Waste Records
+- Dashboard with Charts
+- Export Reports.
