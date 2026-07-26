@@ -40,6 +40,9 @@ Check Python installation
 
 Go to:http://127.0.0.1:5000
 
+## 5.demo vedio:
+https://drive.google.com/file/d/12zE__apCY43E3hamGNYUWz2KBm1DbVNt/view?usp=drivesdk
+
 ## Output Pages
 
 Home Page:
